@@ -1,0 +1,28 @@
+.fitting-room {
+  display: flex;
+  flex-direction: row;
+
+  &.align-horizontally--left {
+    justify-content: flex-start;
+  }
+  &.align-horizontally--center {
+    justify-content: center;
+  }
+  &.align-horizontally--right {
+    justify-content: flex-end;
+  }
+
+  &.align-vertically--top {
+    align-items: flex-start;
+  }
+  &.align-vertically--center {
+    align-items: center;
+  }
+  &.align-vertically--bottom {
+    align-items: flex-end;
+  }
+}
+
+.fitted-content {
+  flex: 0 0 auto;
+}
