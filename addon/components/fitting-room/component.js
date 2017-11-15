@@ -129,7 +129,8 @@ export default class FittingRoomComponent extends Component.extend({
     minHeight
   ) {
     const fitToWidth =
-      fitTo === FIT_TO_WIDTH || widthScalingFactor <= heightScalingFactor;
+      fitTo === FIT_TO_WIDTH ||
+      (fitTo === FIT_TO_BOTH && widthScalingFactor <= heightScalingFactor);
     const scalingFactor = fitToWidth ? widthScalingFactor : heightScalingFactor;
 
     const scaledWidth = width * scalingFactor;
