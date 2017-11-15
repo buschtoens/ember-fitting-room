@@ -1,6 +1,6 @@
 {
   "name": "ember-fitting-room",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Automatically size and position elements while preserving aspect ratio",
   "keywords": [
     "ember-addon"
