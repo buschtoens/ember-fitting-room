@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@ember-decorators/argument": "^0.8.12",
+    "@ember-decorators/babel-transforms": "^2.0.0",
     "ember-cli-babel": "^6.12.0",
     "ember-cli-htmlbars": "^2.0.3",
     "ember-css-modules": "^0.7.10",
